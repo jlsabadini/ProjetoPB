@@ -14,10 +14,11 @@
     
 
     .button{
-   
-    height: 22px;
+    width: 198px;
+    height: 36px;
     border-radius: 35px; 
     background: #3EB25E;
+    
    }
 
    .button:hover{
