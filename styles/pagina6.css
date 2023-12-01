@@ -1,0 +1,63 @@
+.container {      
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+        
+    }
+
+   @media screen and (max-width:480px){
+    .container {  
+    transform: scale(0.7);
+    display: flex;
+    flex-direction: column;
+     }
+    }
+    
+
+    .button{
+    width: 198px;
+    height: 36px;
+    border-radius: 35px; 
+    
+   
+    
+   }
+
+   .button:hover{
+    background: #FFFF7D;
+   }
+   
+   .txt {
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .img2 {
+    width: 552.51px;
+    height: 521.01px;
+    top: 105px;
+    left: 87.49px;
+   }
+
+   .caixa{
+    width: 459px;
+    height: 52px;
+    top: 225px;
+    left: 744px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+
+   }
+   
+   .skip {
+    width: 418px;
+    height: 36px;
+    border-radius: 35px; 
+    background: #3EB25E;
+    color:#fff;
+ }
+ .skip:hover{
+    background: #FFFF7D;
+    
+   }
