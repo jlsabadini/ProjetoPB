@@ -68,7 +68,7 @@
   .botao{
   appearance: unset;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: rgba(62, 178, 94, 0.3);
   width: 25px;
   height: 25px;
