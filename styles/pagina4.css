@@ -1,0 +1,125 @@
+.container {      
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+        
+    }
+
+   @media screen and (max-width:480px){
+    .container {  
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.7);
+     }
+    }
+    
+
+    .button{
+    width: 198px;
+    height: 36px;
+    border-radius: 35px; 
+    background: #3EB25E;
+    
+   }
+
+   .button:hover{
+    background: #FFFF7D;
+   }
+   .texto1{
+    
+    width: 433px;
+    height: 335px;
+    top: 173px;
+    left: 734px;
+    color: black;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.47px;
+   }
+
+   .texto2 {
+    width: 443px;
+    height: 169px;
+    font-family: Roboto;
+    font-weight: 400;
+    size: 28px;
+    line-height: normal;
+    text-align: center;
+    color: black;
+
+   }
+
+   .img2{
+    width: 431px;
+    height: 661px;
+   }
+
+   .texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   
+   .botao{
+   appearance: unset;
+   border: none;
+   border-radius: 5px;
+   background-color: rgba(62, 178, 94, 0.3);
+   width: 25px;
+   height: 25px;
+   font-size: 26px;
+   line-height: 30.47px;
+   accent-color: #3eb23e
+   ;
+   
+   }
+
+    input:checked{
+    background-color: #3eb25e;
+    
+   }
+
+     .select{
+        width: 459px;
+        height: 52px;
+        top: 221px;
+        left: 732px;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        -moz-appearance: none;
+        -webkit-appearance: none;
+       
+     } 
+     
+     .opçoes{
+        width: 324px;
+        height: 265px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: justify;
+        
+     }
+          
+     .skip {
+        width: 418px;
+        height: 36px;
+        border-radius: 35px; 
+        background: #3EB25E;
+       
+     }
+
+     .legend{
+      width: 511px;
+      height: 65px;
+      top: 283px;
+      left: 731px;
+     }
+    
