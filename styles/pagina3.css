@@ -20,7 +20,7 @@
    height: 36px;
    border-radius: 35px; 
    background: #3EB25E;
-   
+   color:#fff;
   }
 
   .button:hover{
@@ -76,7 +76,7 @@
   line-height: 30.47px;
   accent-color: #3eb23e
   ;
-  
+  color:#fff;
   }
 
    input:checked{
@@ -113,7 +113,7 @@
        height: 36px;
        border-radius: 35px; 
        background: #3EB25E;
-      
+       color:#fff;
     }
 
     .legend{
