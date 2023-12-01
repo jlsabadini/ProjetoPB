@@ -6,7 +6,7 @@
         
     }
 
-   @media screen and (max-width:768px){
+   @media screen and (max-width:480px){
     .container {  
     display: flex;
     flex-direction: column; }
@@ -39,7 +39,7 @@
 
    .texto2 {
     width: 443px;
-    height: 169px;
+    height: 75px;
     font-family: Roboto;
     font-weight: 400;
     size: 28px;
